@@ -15,7 +15,9 @@ export const Home = () => {
         <StarBackground/>
         <Navbar/>
         <main>
-            <HeroSection/>
+            <section id="home">
+                <HeroSection/>
+            </section>
             <AboutSection/>
             <SkillsSection/>
             <Projects/>

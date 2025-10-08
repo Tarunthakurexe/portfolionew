@@ -14,12 +14,11 @@ export const AboutSection = () =>{
                         Web Developer
                     </h3>
                     <p className="text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem alias nihil ab? Ea commodi officia cupiditate suscipit id, 
-                        maxime atque quis nam pariatur dolores iusto distinctio doloribus tenetur unde?
+                        I build fast, accessible web apps with React/Next.js and clean, reusable components.
+                        I care about performance on real devices and use CI checks and tests so releases stay smooth.
                     </p>
                     <p className="text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum autem alias nihil ab? Ea commodi officia cupiditate suscipit id, 
-                        maxime atque quis nam pariatur dolores iusto distinctio doloribus tenetur unde?
+                        I like turning repetitive work into small tools that save time, inspired by my hands‑on maker mindset.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -37,7 +36,7 @@ export const AboutSection = () =>{
                             
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Web Development</h4>
-                                <p className="text-muted-foreground">I develop websites.</p>
+                                <p className="text-muted-foreground">I design and code responsive frontends, connect clear APIs, and keep pages lightweight as features grow.</p>
                             </div>
 
                         </div>
@@ -50,7 +49,8 @@ export const AboutSection = () =>{
                             
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                                <p className="text-muted-foreground">I develop user friendly and cool looking sites.</p>
+                                <p className="text-muted-foreground">I focus on simple, consistent interfaces that are easy to use and accessible to everyone.
+                                    I ship the first useful version, gather feedback, and improve quickly without slowing down.</p>
                             </div>
 
                         </div>
@@ -63,7 +63,7 @@ export const AboutSection = () =>{
                             
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Project Management</h4>
-                                <p className="text-muted-foreground">Dedicated to develop.</p>
+                                <p className="text-muted-foreground">I plan around clear outcomes, use feature flags to de‑risk launches, and document decisions for smooth handovers.</p>
                             </div>
 
                         </div>

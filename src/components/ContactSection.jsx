@@ -16,7 +16,7 @@ export const ContactSection = () => {
         setisSubmitting(true);
         setTimeout(()=>{
             toast({
-                title:"Message sent",
+                title:"Message sent!",
                 description: "Thank you for your message. I'll get back to you soon.",
             });
             setisSubmitting(false);
@@ -32,7 +32,7 @@ export const ContactSection = () => {
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
                 I'm always open to discussing new opportunities, collaborations, or technical challenges. 
-                Whether you have a project in mind or just want to connect, feel free to reach out via email or the form below—I'll 
+                Whether you have a project in mind or just want to connect, feel free to reach out via email or the form below-I'll 
                 get back to you within 24 hours.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

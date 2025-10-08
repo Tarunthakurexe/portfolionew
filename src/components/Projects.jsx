@@ -7,25 +7,25 @@ const projects =[
     {
         id: 1,
         title: "RectPokedex",
-        description: "",
+        description: "A responsive Pokédex built with React and CSS that fetches Pokémon data from the PokéAPI and presents it as clean, card‑based listings.",
         image: "/projects/pokemon.png",
         tags: ["React", "CSS", "PokeApi"],
-        demoUrl: "#",
-        gitHubUrl: "#",
+        demoUrl: "https://pokemon-data-project.netlify.app/",
+        gitHubUrl: "https://github.com/Tarunthakurexe/pokemon",
     },
      {
         id: 2,
         title: "Portfolio",
-        description: "This is portfolio",
+        description: "A personal portfolio built with React, Tailwind CSS, and React Router that showcases projects, skills, and contact flows in a lightweight, accessible UI",
         image: "/projects/portfolio.png",
         tags: ["React", "Tailwind", "Rect Router"],
-        demoUrl: "#",
-        gitHubUrl: "#",
+        demoUrl: "https://portfolionew-gblw.vercel.app/",
+        gitHubUrl: "https://github.com/Tarunthakurexe/portfolionew",
     },
      {
         id: 3,
         title: "placeholder",
-        description: "placeholder",
+        description: "A reserved slot for the next featured app—replace with a short problem statement, the approach, and the key tech used",
         image: "/projects/placeholder-project.png",
         tags: ["tag1", "tag2", "tag3"],
         demoUrl: "#",
@@ -64,12 +64,12 @@ export const Projects = () => {
                         <div className="flex justify-between items-center">
                             <div className="flex space-x-3">
                                 <a href={project.demoUrl}
-                                target="_blank" //remove this later 
+                                target="_blank" //will open in a new page
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                     <ExternalLink size={20}/>
                                 </a>
-                                <a href={project.Github}
-                                target="_blank" //remove this later 
+                                <a href={project.gitHubUrl}
+                                target="_blank" //to open link in a new page 
                                 className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                     <Github size={20}/>
                                 </a>
